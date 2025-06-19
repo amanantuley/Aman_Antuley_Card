@@ -1,0 +1,25 @@
+---
+// src/pages/index.astro
+
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Card from "../components/Card.astro";
+---
+
+<!-- You can replace the card's data with your own here. -->
+<BaseLayout title="Aman Antuley" description="Meta description. Here goes your page description. Provide a clear and concise summary of the content.">
+	<Card
+	  name="Aman Antuley"
+	  position="Computer Engineer"
+	  aboutMe={`Hi there! I'm Aman, a passionate developer focused on Web, AI/ML, and Data Science.
+I build clean, user-friendly solutions using JavaScript, Python, Java, and modern tools. From smart systems to seamless UIs, I love turning ideas into impactful tech.
+
+Let’s build something great together!
+
+`}
+	  linkedin="https://www.linkedin.com/in/aman-antuley-8974ab26a/"
+	  github="https://github.com/amanantuley"
+	  cvLink="/files/23CO25_Resume.pdf"
+	  profileImage="/images/aman-image.png"
+	/>
+</BaseLayout>
+
